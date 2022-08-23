@@ -6,24 +6,26 @@ interface person {
     isActive: boolean;
 }
 
-let fernando = {
+let fernando:person = {
 
     name: "fernando",
     age: 36,
+    isActive: true
 };
 
-let melissa = {
-
+let melissa:person = {
     name: "malissa",
     age: 30,
+    isActive: false
 };
 
-let juan = {
+let juan:person = {
     name: "juan",
-    age: 42
+    age: 42,
+    isActive: false
 };
 
-let people = [fernando, melissa, juan];
+let people: person [] = [fernando, melissa, juan];
 
 //console.log(people);
 
